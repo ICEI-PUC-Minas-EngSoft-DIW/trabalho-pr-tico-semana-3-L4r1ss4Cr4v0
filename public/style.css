@@ -21,3 +21,39 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+header,
+section {
+  display: grid;
+  padding: 50px;
+  gap: 30px;
+}
+
+span {
+  font-weight: 400;
+  color: gray;
+  font-style: italic;
+}
+
+#img {
+  height: 350px;
+  width: 300px;
+  background-image: url("./src/Perfil.jpg");
+  background-size: cover;
+}
+
+#header-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  grid-column: span 2;
+  border-bottom: 1px solid rgb(219, 128, 128);
+}
+
+#main-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
