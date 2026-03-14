@@ -7,6 +7,4 @@
 
 ## Print da tela da página criada (Curriculum Vitae)
 
-`<Coloque aqui o print da tela do Curriculum Vitae>`
-
 ![Print do CV na Web (Zoom de 33%)](public/src/PrintCV.png)
