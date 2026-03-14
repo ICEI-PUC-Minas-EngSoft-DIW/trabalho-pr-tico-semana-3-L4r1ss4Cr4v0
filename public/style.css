@@ -109,3 +109,11 @@ header {
   background-image: url("./src/Perfil.jpg");
   background-size: cover;
 }
+
+#tech-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 70%;
+  gap: 10px;
+}
