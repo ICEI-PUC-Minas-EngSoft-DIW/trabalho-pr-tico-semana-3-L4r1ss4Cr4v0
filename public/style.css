@@ -59,7 +59,8 @@ span {
 }
 
 section,
-header {
+header,
+footer {
   display: grid;
   padding: 50px;
   gap: 30px;
@@ -116,4 +117,22 @@ header {
   flex-direction: column;
   height: 70%;
   gap: 10px;
+}
+
+#tech-section span,
+footer span,
+.experience-place,
+#idioms span,
+#certifications span {
+  font-style: normal;
+}
+
+footer {
+  display: flex;
+  grid-column: span 2;
+  border-top: 1px solid rgb(219, 128, 128);
+}
+
+footer span {
+  font-size: smaller;
 }
